@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    background-color: gray;
+}
+
+.container {
+    width: 750px;
+    height: 750px;
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+
+
+}
+
+.gridRow {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.square {
+    background-color: white;
+    flex: 1;
+}
+
+.squareBlack {
+
+}
+.slider {
+    width: 500px;
+    
+}
+
+.valueDisplay {
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    padding: 8px;
+}
